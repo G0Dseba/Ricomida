@@ -1,38 +1,47 @@
+/* Fuente */
 * {
     font-family: 'Cabin', 'sans-serif';
 }
 
+/* Navbar color de fondo y letras*/
 #navbar {
     background-color: #373A3C;
     color: var(--white);
 }
 
+/* Titulo tamaño de fuente*/
 #titulo{
     font-size: 37px;
 }
 
+/* container fuente y color*/
 .container {
     font-family: 'Cabin', 'sans-serif';
     color: #373A3C
 }
 
+/* Ingredientes color */
 #ingredientes {
     color: #373A3C;
 }
 
+/* Newsketter letras y fondo*/
 .newsletter {
     background-color: #DC3545;
     color: #fff;
 }
 
+/* titulo 2 Fuente */
 .ricomida {
     font-family: 'Lobster', 'sans-serif';
 }
 
+/* Boton borde*/
 .btn {
     border: #dddddd;
 }
 
+/* Footer fondo y color*/
 footer {
     background-color: #373A3C;
     color: #fff;

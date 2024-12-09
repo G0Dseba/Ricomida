@@ -1,4 +1,4 @@
-//tooltip y alerta
+//tooltip con alerta  en navegador
 document.addEventListener('DOMContentLoaded', function(){
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
@@ -9,20 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 });
 
-//cambio color con dbclick
-$(document).ready(function () {
-    $("#ingredientes").on("dblclick", function () {
-        $(this).css("color", "red");
-    });
-});
-
-$(document).ready(function () {
-    $("#preparacion").on("dblclick", function () {
-        $(this).css("color", "red");
-    });
-});
-
-//carrusel botones prev-next
+//carrusel  y botones prev-next
 $(document).ready(function () {
     $('#customCarousel').carousel(); 
 
@@ -35,13 +22,26 @@ $(document).ready(function () {
     });
 });
 
-//cada card desaparece al hacer click en su titulo
+//cambio color a rojo con doble click ingredientes
+$(document).ready(function () {
+    $("#ingredientes").on("dblclick", function () {
+        $(this).css("color", "red");
+    });
+});
+
+//cambio color a rojo con doble click preparacion
+$(document).ready(function () {
+    $("#preparacion").on("dblclick", function () {
+        $(this).css("color", "red");
+    });
+});
+
+//la card desaparece al hacer click en el titulo
 $(document).ready(function () {
     $("#cardTitle1").click(function () {
         $(".card-text").toggle();
     });
 });
-
 
 $(document).ready(function () {
     $("#cardTitle2").click(function () {
