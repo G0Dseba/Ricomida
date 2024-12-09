@@ -1,0 +1,39 @@
+* {
+    font-family: 'Cabin', 'sans-serif';
+}
+
+#navbar {
+    background-color: #373A3C;
+    color: var(--white);
+}
+
+#titulo{
+    font-size: 37px;
+}
+
+.container {
+    font-family: 'Cabin', 'sans-serif';
+    color: #373A3C
+}
+
+#ingredientes {
+    color: #373A3C;
+}
+
+.newsletter {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+.ricomida {
+    font-family: 'Lobster', 'sans-serif';
+}
+
+.btn {
+    border: #dddddd;
+}
+
+footer {
+    background-color: #373A3C;
+    color: #fff;
+}
